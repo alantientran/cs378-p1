@@ -6,6 +6,10 @@ body {
   align-items: center;
 }
 
+.logo {
+  height: 160px;
+}
+
 .anniversary {
   font-family: "Playball", cursive;
   font-size: 180%;
@@ -30,6 +34,11 @@ body {
   margin: 0;
   width: 100%;
   max-width: 400px;
+}
+
+.content-row {
+  text-align: left;
+  margin-left: 10px;
 }
 
 .food-item {

@@ -1,3 +1,76 @@
 body {
-  color: hotpink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.anniversary {
+  font-family: "Playball", cursive;
+  font-size: 180%;
+  line-height: 1.5;
+  margin: 0px 10px 0px;
+  color: rgb(255, 194, 25);
+  text-align: center;
+}
+
+.UT-slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 110%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Adjusted to align to the left */
+  margin: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.food-item {
+  display: flex;
+  justify-content: flex-start; /* Adjusted to align to the left */
+  margin: 10px 20px 5px;
+}
+
+.food-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+.food-name {
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.food-description {
+  text-align: left;
+  margin-right: 10px;
+  font-size: 80%;
+  width: 245px;
+}
+
+.price-add-button {
+  display: flex;
+}
+
+.price {
+  margin: 0;
+}
+
+.add-button {
+  border-radius: 20px;
+  background-color: rgb(252, 100, 100);
+  margin-left: 32px;
+  color: white;
+  font-size: 80%;
+  padding: 5px 10px 5px;
+  align-content: center;
 }
